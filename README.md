@@ -75,10 +75,11 @@ challenge-encriptador/
 │   └── app.js
 │
 └── img/
-    ├── logo_alura.svg
-    ├── github.svg
-    ├── favicon.ico
-    └── muneco.svg
+│   ├── exclamation.svg
+│   ├── favicon.ico
+│   ├── github.svg
+│   ├── home.png
+│   └── logo_alura.svg
 ```
 
 ## 💻 Instalación y Uso
