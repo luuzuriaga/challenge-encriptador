@@ -9,10 +9,9 @@ buttonDecrypt.addEventListener("click",decrypt);
 const buttonContainer=document.createElement("DIV");
 buttonContainer.classList.add("bottomContentSide","buttons--side");
 buttonContainer.setAttribute("id","Copy");
-const buttonCopy=document.createElement("INPUT");
+buttonCopy = document.createElement("BUTTON");
 buttonCopy.classList.add("buttons__button","buttons__button--secondary");
-buttonCopy.setAttribute("type","button");
-buttonCopy.setAttribute("value","Copiar");
+buttonCopy.textContent = "Copiar";
 buttonCopy.addEventListener("click",copy);
 buttonContainer.appendChild(buttonCopy);
 /* Save message from ID message */
